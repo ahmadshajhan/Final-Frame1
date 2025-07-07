@@ -1,117 +1,146 @@
-# 🚀 3D Developer Portfolio
+# MrCode 3D Developer Portfolio 🚀
 
-A modern, animated 3D developer portfolio built with React, Three.js, TailwindCSS, and motion effects — designed to help you stand out and showcase your skills creatively.
+A modern, interactive, and visually stunning 3D developer portfolio built with **React**, **Three.js**, **TailwindCSS**, and **Framer Motion**. Crafted to creatively showcase your developer skills and projects in an unforgettable way.
 
-![3d Portfolio Screenshot GitHub](https://github.com/user-attachments/assets/9b0ed20e-074e-4f2a-81d8-20c9da751e9e)
+![3D Portfolio Screenshot](./public/assets/portfolio-preview.png)
 
 ---
 
 ## 📚 Table of Contents
 
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Assets](#-assets)
-- [Contact Me](#-contact-me)
-- [Suggestions or Feedback](#-suggestions-or-feedback)
-- [Like This Project?](#-like-this-project)
+- [✨ Features](#-features)
+- [🛠 Tech Stack](#-tech-stack)
+- [📁 Project Structure](#-project-structure)
+- [🚀 Getting Started](#-getting-started)
+- [🔗 Assets](#-assets)
+- [📬 Contact Me](#-contact-me)
+- [💡 Suggestions or Feedback?](#-suggestions-or-feedback)
+- [⭐ Like This Project?](#-like-this-project)
 
 ---
 
 ## ✨ Features
 
-- 🔥 3D visuals powered by **React Three Fiber** and **Drei**
-- ⚡ Smooth transitions and scroll-based animations using **Framer Motion**
-- 🎨 Clean, responsive UI with **TailwindCSS**
-- 💌 Working contact form using **EmailJS**
-- 🧱 Beautiful UI enhancements with **Aceternity UI** and **Magic UI**
-- 🚀 Lightning-fast development with **Vite**
+- 🔥 **3D visuals** powered by **React Three Fiber** and **Drei**
+- ⚡ **Smooth transitions** and **scroll-based animations** using **Framer Motion**
+- 🎨 **Responsive UI** styled with **TailwindCSS**
+- 💌 **Working contact form** via **EmailJS**
+- 🧱 UI enhancements using **Aceternity UI** & **Magic UI**
+- 🚀 **Blazing-fast development** with **Vite**
 
 ---
 
 ## 🛠 Tech Stack
 
-| Tech              | Description                           |
-|-------------------|---------------------------------------|
-| React             | Front-end JavaScript library          |
-| Vite              | Fast bundler and dev environment      |
-| TailwindCSS       | Utility-first CSS framework           |
-| React Three Fiber | 3D rendering with Three.js in React   |
-| Drei              | Helpers and abstractions for R3F      |
-| Framer Motion     | Animation library for React           |
-| EmailJS           | Form handling and email integration   |
-| Aceternity UI     | Custom UI components                  |
-| Magic UI          | Prebuilt UI elements and design extras|
+| Tech                  | Description                          |
+| --------------------- | ------------------------------------ |
+| **React**             | Front-end JavaScript library         |
+| **Vite**              | Lightning-fast dev server & bundler  |
+| **TailwindCSS**       | Utility-first modern CSS framework   |
+| **React Three Fiber** | 3D rendering in React using Three.js |
+| **Drei**              | R3F helpers and abstractions         |
+| **Framer Motion**     | Powerful animations for React        |
+| **EmailJS**           | Email sending from client-side apps  |
+| **Aceternity UI**     | Custom UI components                 |
+| **Magic UI**          | Pre-built UI elements and extras     |
 
 ---
 
 ## 📁 Project Structure
 
-```bash
 ├── public/
-│   ├── assets/             # Images, textures, models
-│   ├── models/             # 3D Astronaut model
-│   └── vite.svg
+│ ├── assets/ # Images, textures, and other visuals
+│ ├── models/ # 3D models (e.g. astronaut.glb)
+│ └── vite.svg # Vite logo
 ├── src/
-│   ├── components/         # Reusable components
-│   ├── constants/          # Reusable datas
-│   ├── sections/           # Portfolio sections (Hero, About, etc.)
-│   ├── App.jsx             # Main app file
-│   ├── index.css           # Tailwind css
-│   └── main.jsx            # Entry point
-├── tailwind.config.js
-└── vite.config.js
-```
+│ ├── components/ # UI components (Canvas, Cards, etc.)
+│ ├── constants/ # Data files (tech, services, etc.)
+│ ├── sections/ # Page sections (Hero, About, Contact, etc.)
+│ ├── App.jsx # Main App file
+│ ├── index.css # Tailwind styles
+│ └── main.jsx # Entry point for React
+├── tailwind.config.js # Tailwind configuration
+└── vite.config.js # Vite configuration
 
 ---
 
 ## 🚀 Getting Started
-1. Clone the Repository
+
+### 1. Clone the Repository
+
+````bash
+git clone https://github.com/mrcode101/3d-developer-portfolio.git
+cd 3d-developer-portfolio
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
 ```bash
-git clone https://github.com/Ali-Sanati/Portfolio.git
-cd Portfolio
-```
+git clone https://github.com/mrcode101/3d-developer-portfolio.git
+cd 3d-developer-portfolio
 2. Install Dependencies
-```bash
+bash
+Copy code
 npm install
-```
-3. Run the Development Server
-```bash
+3. Start the Development Server
+bash
+Copy code
 npm run dev
-```
-The app will be available at http://localhost:5173.
+The app will be running at: http://localhost:5173
 
----
+🔗 Assets
+All assets used in this project (images, icons, 3D models) can be found in the /public/assets and /public/models folders.
 
-## 🔗 Assets
-Assets used in the project can be found [here](https://github.com/user-attachments/files/19820923/public.zip)
+📬 Contact Me
+Feel free to reach out or connect on social media:
 
----
+Instagram
 
-## 📬 Contact Me
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/ali.sanatidev/reels/) 
-[![Static Badge](https://img.shields.io/badge/Youtube-%23FF0033?style=flat&logo=youtube)](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ali-sanati/) 
+LinkedIn
 
----
+Email
 
-## 💡 Suggestions or Feedback?
-Leave a comment on the [YouTube video](https://youtu.be/S9UQItTpwUQ) or open an issue here on GitHub.<br/>
+💡 Suggestions or Feedback?
+Open an issue or leave a comment on the YouTube video.
+
 👉 What should I build next?
 
-- A beautiful Landing Page
+A stunning SaaS Landing Page
 
-- A complete E-commerce site
+A full-stack E-commerce Platform
 
-- A fun App Clone (YouTube, Netflix, etc.)
+A fun Clone App (Netflix, Spotify, etc.)
 
-Or another interactive Portfolio
+Or another immersive 3D Portfolio
 
 Let me know!
 
+⭐ Like This Project?
+Give the repository a star 🌟 and subscribe on YouTube for more awesome dev content and tutorials!
+
+Created with ❤️ by MrCode | Final-Frame Studios
+
+📦 Releases
+No releases published yet.
+
+📦 Packages
+No packages published yet.
+
+yaml
+Copy code
+
 ---
 
-## ⭐ Like This Project?
-Star the repo and [subscribe](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA??sub_confirmation=1) to the YouTube channel for more dev content!
-# Final-Frame1
+Would you like me to:
+
+- Convert this to a real file?
+- Add badges (like GitHub stars, forks, license)?
+- Include example images or placeholders for screenshots?
+
+Let me know and I’ll generate/download-ready versions too.
+
+
+````
